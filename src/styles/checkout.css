@@ -1,0 +1,121 @@
+.checkoutItems {
+    padding: 100px 0;
+ }
+.checkoutItems .row{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:850px){
+    .checkoutItems .row{
+      flex-direction: column;
+      justify-content: center;
+    } 
+    
+}
+
+
+.checkoutItems .row .form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.checkoutItems .row .form label{
+    letter-spacing: 1.2px;
+}
+
+.checkoutItems .row .form input{
+    height: 30px;
+    width: 320px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #001e28;   
+}
+
+
+@media screen and (max-width:850px){
+    .checkoutItems .row .form{
+        margin: 20px;
+    } 
+    .checkoutItems .row .form input{
+        width: 100%;
+    }
+    
+}
+.checkoutItems .row .form  .checkout{
+    background-color: #001e28;
+    padding: 6px 19px;
+    color: #ffff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+.checkoutItems .row .form  .checkout:hover{
+    background-color: rgb(4, 126, 4);
+}
+
+.checkoutItems .totalCart{
+    box-shadow: 0 0 4px #001e28;
+    padding: 10px 20px ;
+    border-radius: 9px;
+    width: 450px;
+}
+
+
+@media screen and (max-width:850px){
+
+    .checkoutItems .totalCart{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+.checkoutItems .totalCart h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.checkoutItems .totalCart h2 span{
+    background-color: #001e28;
+    color: #fff;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 6px;
+    
+}
+
+.checkoutItems .totalCart .totalInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutItems .totalCart .totalInfo .totalContent{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.checkoutItems .totalCart .totalInfo .totalContent span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.checkoutItems .totalCart .total{
+    margin-top: 50px;
+}
+
+
+.checkoutItems .totalCart .total {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 34px;
+}

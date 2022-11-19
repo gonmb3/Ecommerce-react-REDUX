@@ -1,0 +1,51 @@
+.home{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    background-image: url("https://cdn.wallpapersafari.com/79/54/oC20qw.jpg");
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.row-home{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home  .row-home .content{
+    height: 100%;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.home  .row-home .content .title{
+    color: #ffff;
+    text-transform: uppercase;
+    text-shadow: 9px 4px 4px #000;
+    font-size: 63px;
+}
+
+.content p{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:481px){
+    .home  .row-home .content .title{
+        font-size: 39px;
+    }
+    
+    .content p{
+        font-size: 22px;
+    }
+  }
+  
