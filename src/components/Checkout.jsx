@@ -13,7 +13,7 @@ const Checkout = () => {
         return(
             <div className="totalContent">
                <img style={{width:30}} src={item.image} alt={item.title} />
-                <span>${item.price.toFixed()}</span>
+                <span>${Math.ceil(item.price)}</span>
             </div>
         )
     }
